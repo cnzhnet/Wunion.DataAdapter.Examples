@@ -11,6 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.5.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Wunion.DataAdapter.NetCore.MySQL" Version="1.0.5" />
@@ -22,6 +26,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Wunion.DataAdapter.CodeFirstDemo.Application\Wunion.DataAdapter.CodeFirstDemo.Application.csproj" />
     <ProjectReference Include="..\Wunion.DataAdapter.CodeFirstDemo.Data\Wunion.DataAdapter.CodeFirstDemo.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
