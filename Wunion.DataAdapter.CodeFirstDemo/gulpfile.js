@@ -6,20 +6,24 @@ const uglify = require('gulp-uglify');
 
 var paths = {
     scripts: [
-        'Client/**/*.js',
-        'Client/**/*.ts',
-        'Client/**/*.map'
-        //'!Client/**/*.d.ts'
+        'Scripts/**/*.js',
+        'Scripts/**/*.ts',
+        'Scripts/**/*.map'
+        //'!Scripts/**/*.d.ts'
     ],
     lib: []
 };
 
 // 执行清理任务.
 gulp.task('clean', function () {
-    return del(['wwwroot/js/**/*', 'Client/**/*.js', 'Client/**/*.map']);
+    return del(['wwwroot/js/**/*', 'Scripts/**/*.js', 'Scripts/**/*.map']);
 });
 
-// 仅清除编译的 js
+//gulp.task('lib', function (done) {
+//    gulp.src(paths.lib).pipe(gulp.dest("wwwroot/lib/crypto-js"));
+//    done(); 
+//});
+
 gulp.task('clean:src', function () {
     return del(['Scripts/**/*.js', 'Scripts/**/*.map']);
 });

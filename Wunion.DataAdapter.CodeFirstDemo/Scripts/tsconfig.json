@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5",
+    "lib": [ "ES2018", "DOM" ],
+    "typeRoots": [ "node_modules/@types" ]
+  },
+  "files": [
+    "./web-application.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"//,
+    //"**/*.d.ts"
+  ],
+  "compileOnSave": true
+}

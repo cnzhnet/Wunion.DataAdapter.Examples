@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wunion.DataAdapter.CodeFirstDemo", "Wunion.DataAdapter.CodeFirstDemo\Wunion.DataAdapter.CodeFirstDemo.csproj", "{F69E3F4D-074F-4F46-B2B3-FE8358A229D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunion.DataAdapter.CodeFirstDemo.Data", "Wunion.DataAdapter.CodeFirstDemo.Data\Wunion.DataAdapter.CodeFirstDemo.Data.csproj", "{B57EF46C-5979-4B7C-BC5C-EB71000F0A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wunion.DataAdapter.CodeFirstDemo.Data", "Wunion.DataAdapter.CodeFirstDemo.Data\Wunion.DataAdapter.CodeFirstDemo.Data.csproj", "{B57EF46C-5979-4B7C-BC5C-EB71000F0A57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunion.DataAdapter.CodeFirstDemo.Application", "Wunion.DataAdapter.CodeFirstDemo.Application\Wunion.DataAdapter.CodeFirstDemo.Application.csproj", "{E113FD87-6D1E-407B-9571-A1E4E557AF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wunion.DataAdapter.CodeFirstDemo.Application", "Wunion.DataAdapter.CodeFirstDemo.Application\Wunion.DataAdapter.CodeFirstDemo.Application.csproj", "{E113FD87-6D1E-407B-9571-A1E4E557AF4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -53,6 +53,7 @@ namespace Wunion.DataAdapter.CodeFirstDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages();
             services.AddControllers().AddJsonOptions((options) => {
                 options.JsonSerializerOptions.PropertyNamingPolicy = null;
                 options.JsonSerializerOptions.Encoder = JavaScriptEncoder.Create(UnicodeRanges.All);
@@ -121,14 +122,13 @@ namespace Wunion.DataAdapter.CodeFirstDemo
                 dp.ImportKey(pk);
             });
 
-            app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
+            //app.UseHttpsRedirection();
             app.UseRouting();
-
-            app.UseAuthorization();
-
+            //app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
         }

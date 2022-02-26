@@ -4,10 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/layui/css/layui.css" />
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/layui/layui.js"></script>
+    @RenderSection("DynamicResources", false)
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+    @RenderBody()
 </body>
 </html>
