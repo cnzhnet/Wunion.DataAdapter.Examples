@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\cnzhnet\Documents\Visual Studio 2019\Projects\Wunion.DataAdapter.NetCore\Wunion.DataAdapter.CodeFirstDemo\Wunion.DataAdapter.CodeFirstDemo.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.MySQL" Version="1.0.5" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.PostgreSQL" Version="1.0.5" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLite3" Version="1.0.5" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLServer" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wunion.DataAdapter.CodeFirstDemo.Application\Wunion.DataAdapter.CodeFirstDemo.Application.csproj" />
+    <ProjectReference Include="..\Wunion.DataAdapter.CodeFirstDemo.Data\Wunion.DataAdapter.CodeFirstDemo.Data.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
