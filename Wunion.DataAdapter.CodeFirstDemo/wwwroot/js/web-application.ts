@@ -1,4 +1,4 @@
-﻿/// <reference path="app.core.types.d.ts" />
+/// <reference path="app.core.types.d.ts" />
 /// <reference path="types/layui/index.d.ts" />
 /// <reference path="types/quill/index.d.ts" />
 

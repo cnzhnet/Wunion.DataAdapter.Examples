@@ -1,6 +1,8 @@
 ﻿@page
 @model IndexModel
 @section DynamicResources {
+    <link href="~/lib/quill/quill.snow.css" rel="stylesheet">
+    <script src="~/lib/quill/quill.js"></script>
     <script src="/js/web-application.js" async></script>
 }
 @{
@@ -8,4 +10,5 @@
 }
 <div>
     <h2>@ViewBag.Title</h2>
+    <div id="my-editor"></div>
 </div>
