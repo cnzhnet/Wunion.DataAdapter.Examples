@@ -17,10 +17,10 @@
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-    <PackageReference Include="Wunion.DataAdapter.NetCore.MySQL" Version="1.0.5" />
-    <PackageReference Include="Wunion.DataAdapter.NetCore.PostgreSQL" Version="1.0.5" />
-    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLite3" Version="1.0.5" />
-    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLServer" Version="1.0.5" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.MySQL" Version="1.0.5.2" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.PostgreSQL" Version="1.0.5.2" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLite3" Version="1.0.5.2" />
+    <PackageReference Include="Wunion.DataAdapter.NetCore.SQLServer" Version="1.0.5.2" />
   </ItemGroup>
 
   <ItemGroup>
